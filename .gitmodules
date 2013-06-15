@@ -1,0 +1,3 @@
+[submodule "findAndReplaceDOMText"]
+	path = findAndReplaceDOMText
+	url = git@github.com:padolsey/findAndReplaceDOMText.git
