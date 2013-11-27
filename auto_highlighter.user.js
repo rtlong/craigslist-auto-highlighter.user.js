@@ -290,7 +290,7 @@ window.findAndReplaceDOMText = (function() {
 (function() {
   var container, pattern;
 
-  pattern = /\b(females?|lad(y|ies)|girls?|wom[ea]n|cats?|kitt(ens?|y|ies)|immediately|now|420|vega(taria)?ns?|lease|sublet|june|july|august|september|bart|muni|laundry|washers?|dryers?|efficiency|((early|mid|late)[-])?(twentie|thirtie|fortie|fiftie|20|30|40|50)'?s|(un-?)?furnished|\$[0-9]+|\d+\s*(be?d|ba(th)?)(room)?s?)\b|\d+/ig;
+  pattern = /\b(females?|lad(y|ies)|girls?|wom[ea]n|cats?|kitt(ens?|y|ies)|immediately|now|420|vega(taria)?ns?|lease|sublet|december|january|february|bart|muni|laundry|washers?|dryers?|efficiency|((early|mid|late)[-])?(twentie|thirtie|fortie|fiftie|20|30|40|50)'?s|(un-?)?furnished|\$[0-9]+|\d+\s*(be?d|ba(th)?)(room)?s?)\b|\d+/ig;
 
   container = document.querySelector('section.userbody, section.body');
 
